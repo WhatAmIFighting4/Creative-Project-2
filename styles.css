@@ -1,1 +1,40 @@
 
+.navbar {
+    background-color: whitesmoke;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    color: black;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+ 
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 5;
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25;
+  }
+  li a:hover {
+    background-color: darkgrey;
+  }
